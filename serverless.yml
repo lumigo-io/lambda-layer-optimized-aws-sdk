@@ -1,0 +1,16 @@
+service: optimized-aws-sdk-layer
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+layers:
+  OptimizedAwsSdk:
+    path: opt
+    compatibleRuntimes: 
+      - nodejs8.10
+      - nodejs10.x
+    allowedAccounts:
+      - '*'
+    retain: true
+    description: AWS-SDK v2.458.0
