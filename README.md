@@ -6,7 +6,7 @@ You can add this layer to your function using the ARN:
 
 **arn:aws:lambda:us-east-1:374852340823:layer:optimized-aws-sdk:[insert version here]**
 
-The latest version of this layer is **9**.
+The latest version of this layer is **10**.
 
 ## Getting started
 
@@ -24,3 +24,4 @@ Or add it via the console manually:
 | layer version | AWS SDK version |
 |---|---|
 | 9 | 2.458.0 |
+| 10 | 2.471.0 |
