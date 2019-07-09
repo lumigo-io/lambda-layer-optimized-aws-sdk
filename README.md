@@ -2,9 +2,12 @@
 
 A Lambda layer that gives you an AWS SDK with HTTP keep-alive enabled already.
 
-You can add this layer to your function using the ARN:
+You can add this layer to your function using one of the following ARNs (pick the one from the region you need):
 
-**arn:aws:lambda:us-east-1:374852340823:layer:optimized-aws-sdk:[insert version here]**
+* **arn:aws:lambda:us-east-1:374852340823:layer:optimized-aws-sdk:[insert version here]**
+* **arn:aws:lambda:us-west-2:374852340823:layer:optimized-aws-sdk:[insert version here]**
+* **arn:aws:lambda:eu-central-1:374852340823:layer:optimized-aws-sdk:[insert version here]**
+* **arn:aws:lambda:eu-west-1:374852340823:layer:optimized-aws-sdk:[insert version here]**
 
 The latest version of this layer is **10**.
 
