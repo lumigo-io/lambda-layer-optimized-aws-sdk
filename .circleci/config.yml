@@ -24,7 +24,6 @@ jobs:
           command: |
             cd opt/nodejs/node8/node_modules/aws-sdk/
             npm ci
-      # - run: cd -
       - run: pwd
 
 workflows:
