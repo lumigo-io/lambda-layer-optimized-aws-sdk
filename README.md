@@ -1,5 +1,7 @@
 # lambda-layer-optimized-aws-sdk
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lumigo/lambda-layer-optimized-aws-sdk.svg)](https://greenkeeper.io/)
+
 A Lambda layer that gives you an AWS SDK with HTTP keep-alive enabled already.
 
 You can add this layer to your function using one of the following ARNs (pick the one from the region you need):
