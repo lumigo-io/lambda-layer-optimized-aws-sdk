@@ -3,7 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "description": "A Lambda layer that gives you an AWS SDK with HTTP keep-alive enabled already.",
-  "scripts": {},
+  "scripts": {
+    "sls": "sls"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lumigo/lambda-layer-optimized-aws-sdk.git"
@@ -15,5 +17,7 @@
     "url": "https://github.com/lumigo/lambda-layer-optimized-aws-sdk/issues"
   },
   "homepage": "https://github.com/lumigo/lambda-layer-optimized-aws-sdk#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "serverless": "^1.49.0"
+  }
 }
