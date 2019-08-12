@@ -25,17 +25,20 @@ jobs:
             cd opt/nodejs/node8/node_modules/aws-sdk/
             npm ci
       - run:
+          name: install SLS
+          command: npm ci
+      - run:
           name: us-east-1
-          command: npm run sls -- -region us-east-1
+          command: npm run sls -- deploy -region us-east-1
       - run:
           name: us-west-2
-          command: npm run sls -- -region us-west-2
+          command: npm run sls -- deploy -region us-west-2
       - run:
           name: eu-central-1
-          command: npm run sls -- -region eu-central-1
+          command: npm run sls -- deploy -region eu-central-1
       - run:
           name: eu-west-1
-          command: npm run sls -- -region eu-west-1
+          command: npm run sls -- deploy -region eu-west-1
 
 workflows:
   version: 2
