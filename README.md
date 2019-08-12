@@ -2,6 +2,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/lumigo/lambda-layer-optimized-aws-sdk.svg)](https://greenkeeper.io/)
 [![CircleCI](https://circleci.com/gh/lumigo/lambda-layer-optimized-aws-sdk.svg?style=svg)](https://circleci.com/gh/lumigo/lambda-layer-optimized-aws-sdk)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 A Lambda layer that gives you an AWS SDK with HTTP keep-alive enabled already.
 
