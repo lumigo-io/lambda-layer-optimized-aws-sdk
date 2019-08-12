@@ -61,3 +61,5 @@ typings/
 
 .serverless
 .vscode
+node_modules
+!opt/nodejs/node8/node_modules
