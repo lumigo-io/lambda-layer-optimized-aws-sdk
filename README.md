@@ -13,7 +13,7 @@ You can add this layer to your function using one of the following ARNs (pick th
 * **arn:aws:lambda:eu-central-1:374852340823:layer:optimized-aws-sdk:[insert version here]**
 * **arn:aws:lambda:eu-west-1:374852340823:layer:optimized-aws-sdk:[insert version here]**
 
-The latest version of this layer is **10**.
+The latest version of this layer is **11**.
 
 ## Getting started
 
@@ -32,3 +32,4 @@ Or add it via the console manually:
 |---|---|
 | 9 | 2.458.0 |
 | 10 | 2.471.0 |
+| 11 | 2.508.0 |
