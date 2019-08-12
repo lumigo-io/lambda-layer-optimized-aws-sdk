@@ -1,0 +1,9 @@
+{ 
+  "groups": {
+    "default": {
+      "packages": [
+        "opt/nodejs/node8/node_modules/aws-sdk/package.json"
+      ]
+    }
+  }
+}
