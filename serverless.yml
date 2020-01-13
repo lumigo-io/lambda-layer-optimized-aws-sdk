@@ -2,17 +2,18 @@ service: optimized-aws-sdk-layer
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
 
 layers:
   OptimizedAwsSdk:
     path: opt
     name: optimized-aws-sdk
-    description: AWS-SDK v2.471.0
+    description: AWS-SDK v2.602.0
     licenseInfo: MIT
     compatibleRuntimes: 
       - nodejs8.10
       - nodejs10.x
+      - nodejs12.x
     allowedAccounts:
       - '*'
     retain: true
