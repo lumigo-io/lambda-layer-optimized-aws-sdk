@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/lumigo/lambda-layer-optimized-aws-sdk#readme",
   "devDependencies": {
-    "serverless": "^1.49.0"
+    "serverless": "^3.25.1"
   }
 }
